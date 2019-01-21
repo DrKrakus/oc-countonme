@@ -111,6 +111,9 @@
                                                 <real key="value" value="3"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="allClear" destination="BYZ-38-t0r" eventType="touchUpInside" id="H6r-eO-s5w"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>

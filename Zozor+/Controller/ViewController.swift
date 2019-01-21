@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var textView: UITextView!
     @IBOutlet var numberButtons: [UIButton]!
     
+    
     // MARK: - Action
     @IBAction func tappedNumberButton(_ sender: UIButton) {
         for (i, numberButton) in numberButtons.enumerated() {
@@ -49,6 +50,10 @@ class ViewController: UIViewController {
         calculator.clear()
     }
     
+    @IBAction func allClear() {
+        calculator.clear()
+        updateDisplay()
+    }
     
     // MARK: - Methods
     func checkIfCanAddOperator() -> Bool {
