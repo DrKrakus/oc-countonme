@@ -12,7 +12,6 @@ class Calculator {
     // MARK: - Properties
     var stringNumbers: [String] = [String()]
     var operators: [String] = ["+"]
-    var index = 0
     var total = 0
     
     var isExpressionCorrect: Bool {
@@ -67,7 +66,6 @@ class Calculator {
     func clear() {
         stringNumbers = [String()]
         operators = ["+"]
-        index = 0
         total = 0
     }
     

@@ -11,12 +11,11 @@ import UIKit
 class ViewController: UIViewController {
     // MARK: - Properties
     let calculator = Calculator()
-    
+
     // MARK: - Outlets
     @IBOutlet weak var textView: UITextView!
     @IBOutlet var numberButtons: [UIButton]!
-    
-    
+
     // MARK: - Action
     @IBAction func tappedNumberButton(_ sender: UIButton) {
         for (i, numberButton) in numberButtons.enumerated() {
@@ -26,21 +25,21 @@ class ViewController: UIViewController {
             }
         }
     }
-    
+
     @IBAction func plus() {
         if checkIfCanAddOperator() {
             calculator.plus()
             updateDisplay()
         }
     }
-    
+
     @IBAction func minus() {
         if checkIfCanAddOperator() {
             calculator.minus()
             updateDisplay()
         }
     }
-    
+
     @IBAction func equal() {
         if !checkIfIsExpressionCorrect() {
             return
@@ -49,7 +48,7 @@ class ViewController: UIViewController {
         textView.text = textView.text + "=\(calculator.total)"
         calculator.clear()
     }
-    
+
     @IBAction func allClear() {
         calculator.clear()
         updateDisplay()
