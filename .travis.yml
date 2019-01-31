@@ -1,0 +1,5 @@
+language: swift
+osx_image: xcode10.1
+xcode_project: CountOnMe.xcodeproj
+xcode_scheme: CountOnMeTests
+xcode_destination: platform=iOS Simulator,OS=11.0,name=iPhone X
