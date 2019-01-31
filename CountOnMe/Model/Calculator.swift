@@ -14,6 +14,7 @@ class Calculator {
     var operators: [String] = ["+"]
     var total = 0
     
+    // Computed property for toggle alerts
     var isExpressionCorrect: Bool {
         if let stringNumber = stringNumbers.last {
             if stringNumber.isEmpty {
@@ -23,6 +24,7 @@ class Calculator {
         return true
     }
     
+    // Computed property for checking if can add operator
     var canAddOperator: Bool {
         if let stringNumber = stringNumbers.last {
             if stringNumber.isEmpty {
@@ -33,6 +35,9 @@ class Calculator {
     }
     
     // MARK: - Methods
+    /// Adding new number in stringNumbers array
+    ///
+    /// - parameter newNumber : It's the number you tapped
     func addNewNumber(_ newNumber: Int) {
         if let stringNumber = stringNumbers.last {
             var stringNumberMutable = stringNumber
@@ -41,16 +46,19 @@ class Calculator {
         }
     }
     
+    /// Adding operator +
     func plus() {
         operators.append("+")
         stringNumbers.append("")
     }
-    
+
+    /// Adding operator -
     func minus() {
         operators.append("-")
         stringNumbers.append("")
     }
     
+    /// Calcule total
     func calculeTotal() {
         for (i, stringNumber) in stringNumbers.enumerated() {
             if let number = Int(stringNumber) {
@@ -63,6 +71,7 @@ class Calculator {
         }
     }
     
+    /// Reset the properties of Calculator
     func clear() {
         stringNumbers = [String()]
         operators = ["+"]

@@ -17,6 +17,9 @@ class ViewController: UIViewController {
     @IBOutlet var numberButtons: [UIButton]!
 
     // MARK: - Action
+    /// Update display for showing the tapped number
+    ///
+    /// - parameter sender: the tapped button
     @IBAction func tappedNumberButton(_ sender: UIButton) {
         for (i, numberButton) in numberButtons.enumerated() {
             if sender == numberButton {
@@ -26,6 +29,7 @@ class ViewController: UIViewController {
         }
     }
 
+    /// Check if can add the operator +, then add him
     @IBAction func plus() {
         if checkIfCanAddOperator() {
             calculator.plus()
@@ -33,6 +37,7 @@ class ViewController: UIViewController {
         }
     }
 
+    /// Check if can add the operator -, then add him
     @IBAction func minus() {
         if checkIfCanAddOperator() {
             calculator.minus()
@@ -40,21 +45,25 @@ class ViewController: UIViewController {
         }
     }
 
+    /// Check if can add the operator =, then make the calcul and update display
     @IBAction func equal() {
         if !checkIfIsExpressionCorrect() {
             return
         }
         calculator.calculeTotal()
         textView.text = textView.text + "=\(calculator.total)"
+        // Reset the properties, and make the calculator ready for an another calcul
         calculator.clear()
     }
 
+    /// Clear all the calcul
     @IBAction func allClear() {
         calculator.clear()
         updateDisplay()
     }
     
     // MARK: - Methods
+    /// Check if can add operator, and alert the user when error appears
     func checkIfCanAddOperator() -> Bool {
         if !calculator.canAddOperator {
             let alertVC = UIAlertController(title: "Zéro!", message: "Expression incorrecte !", preferredStyle: .alert)
@@ -65,6 +74,7 @@ class ViewController: UIViewController {
         return true
     }
     
+    /// Check if the button tapped is correct, and alert the user when error appears
     func checkIfIsExpressionCorrect() -> Bool {
         if !calculator.isExpressionCorrect {
             if calculator.stringNumbers.count == 1 {
@@ -81,6 +91,7 @@ class ViewController: UIViewController {
         return true
     }
     
+    /// Update the UITextView
     func updateDisplay() {
         var text = ""
         for (i, stringNumber) in calculator.stringNumbers.enumerated() {

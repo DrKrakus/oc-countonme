@@ -10,149 +10,179 @@ import XCTest
 @testable import CountOnMe
 
 class CountOnMeUITests: XCTestCase {
+    // Declaration of app
     var app: XCUIApplication!
     
+    /// Reset state before each test method in a test case is called
     override func setUp() {
+        // Init of app
         app = XCUIApplication()
         app.launch()
     }
     
+    /// Testing the button 0
     func testButton0() {
-        let textView = app.textViews["textView"]
-
+        // When
         app.buttons["0"].tap()
-
-        XCTAssertEqual(textView.value as! String, "0")
+        
+        // Then
+        XCTAssertEqual(app.textViews["textView"].value as! String, "0")
     }
     
+    /// Testing the button 1
     func testButton1() {
-        let textView = app.textViews["textView"]
-        
+        // When
         app.buttons["1"].tap()
         
-        XCTAssertEqual(textView.value as! String, "1")
+        // Then
+        XCTAssertEqual(app.textViews["textView"].value as! String, "1")
     }
     
+    /// Testing the button 2
     func testButton2() {
-        let textView = app.textViews["textView"]
-        
+        // When
         app.buttons["2"].tap()
         
-        XCTAssertEqual(textView.value as! String, "2")
+        // Then
+        XCTAssertEqual(app.textViews["textView"].value as! String, "2")
     }
     
+    /// Testing the button 3
     func testButton3() {
-        let textView = app.textViews["textView"]
-        
+        // When
         app.buttons["3"].tap()
         
-        XCTAssertEqual(textView.value as! String, "3")
+        // Then
+        XCTAssertEqual(app.textViews["textView"].value as! String, "3")
     }
     
+    /// Testing the button 4
     func testButton4() {
-        let textView = app.textViews["textView"]
-        
+        // When
         app.buttons["4"].tap()
         
-        XCTAssertEqual(textView.value as! String, "4")
+        // Then
+        XCTAssertEqual(app.textViews["textView"].value as! String, "4")
     }
     
+    /// Testing the button 5
     func testButton5() {
-        let textView = app.textViews["textView"]
-        
+        // When
         app.buttons["5"].tap()
         
-        XCTAssertEqual(textView.value as! String, "5")
+        // Then
+        XCTAssertEqual(app.textViews["textView"].value as! String, "5")
     }
     
+    /// Testing the button 6
     func testButton6() {
-        let textView = app.textViews["textView"]
-        
+        // When
         app.buttons["6"].tap()
         
-        XCTAssertEqual(textView.value as! String, "6")
+        // Then
+        XCTAssertEqual(app.textViews["textView"].value as! String, "6")
     }
     
+    /// Testing the button 7
     func testButton7() {
-        let textView = app.textViews["textView"]
-        
+        // When
         app.buttons["7"].tap()
         
-        XCTAssertEqual(textView.value as! String, "7")
+        // Then
+        XCTAssertEqual(app.textViews["textView"].value as! String, "7")
     }
     
+    /// Testing the button 8
     func testButton8() {
-        let textView = app.textViews["textView"]
-        
+        // When
         app.buttons["8"].tap()
         
-        XCTAssertEqual(textView.value as! String, "8")
+        // Then
+        XCTAssertEqual(app.textViews["textView"].value as! String, "8")
     }
     
+    /// Testing the button 9
     func testButton9() {
-        let textView = app.textViews["textView"]
-        
+        // When
         app.buttons["9"].tap()
         
-        XCTAssertEqual(textView.value as! String, "9")
+        // Then
+        XCTAssertEqual(app.textViews["textView"].value as! String, "9")
     }
     
+    /// Testing the button minus
     func testButtonMinus() {
-        let textView = app.textViews["textView"]
-        
+        // When
         app.buttons["3"].tap()
         app.buttons["-"].tap()
         
-        XCTAssertEqual(textView.value as! String, "3-")
+        // Then
+        XCTAssertEqual(app.textViews["textView"].value as! String, "3-")
     }
     
+    /// Testing the button plus
     func testButtonPlus() {
-        let textView = app.textViews["textView"]
-        
+        // When
         app.buttons["3"].tap()
         app.buttons["+"].tap()
         
-        XCTAssertEqual(textView.value as! String, "3+")
+        // Then
+        XCTAssertEqual(app.textViews["textView"].value as! String, "3+")
     }
     
+    /// Testing the button equal
     func testButtonEqual() {
-        let textView = app.textViews["textView"]
-        
+        // When
         app.buttons["3"].tap()
         app.buttons["+"].tap()
         app.buttons["3"].tap()
         app.buttons["="].tap()
         
-        XCTAssertEqual(textView.value as! String, "3+3=6")
+        // Then
+        XCTAssertEqual(app.textViews["textView"].value as! String, "3+3=6")
     }
     
+    /// Testing the button all clear
     func testButtonAllClear() {
-        let textView = app.textViews["textView"]
-        
+        // When
         app.buttons["3"].tap()
         app.buttons["AC"].tap()
         
-        XCTAssertEqual(textView.value as! String, "")
+        // Then
+        XCTAssertEqual(app.textViews["textView"].value as! String, "")
     }
     
+    /// Testing 3 alerts
     func testAlerts() {
         let alert = app.alerts["Zéro!"]
         
+        // When
         app.buttons["-"].tap()
+        // Then
         XCTAssert(alert.staticTexts["Expression incorrecte !"].exists)
+        // When
         alert.buttons["OK"].tap()
+        // Then
         XCTAssertFalse(alert.staticTexts["Expression incorrecte !"].exists)
         
+        // When
         app.buttons["="].tap()
+        // Then
         XCTAssert(alert.staticTexts["Démarrez un nouveau calcul !"].exists)
+        // When
         alert.buttons["OK"].tap()
+        // Then
         XCTAssertFalse(alert.staticTexts["Démarrez un nouveau calcul !"].exists)
         
+        // When
         app.buttons["9"].tap()
         app.buttons["-"].tap()
         app.buttons["="].tap()
+        // Then
         XCTAssert(alert.staticTexts["Entrez une expression correcte !"].exists)
+        // When
         alert.buttons["OK"].tap()
+        // Then
         XCTAssertFalse(alert.staticTexts["Entrez une expression correcte !"].exists)
     }
 }
