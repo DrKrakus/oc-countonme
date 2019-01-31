@@ -21,7 +21,7 @@ class CountOnMeUITests: XCTestCase {
         let textView = app.textViews["textView"]
 
         app.buttons["0"].tap()
-        
+
         XCTAssertEqual(textView.value as! String, "0")
     }
     

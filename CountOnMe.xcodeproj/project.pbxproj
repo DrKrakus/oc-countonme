@@ -152,8 +152,7 @@
 				C926DAE31D7581BB00477020 /* Assets.xcassets */,
 				C926DAE81D7581BB00477020 /* Info.plist */,
 			);
-			name = CountOnMe;
-			path = "Zozor+";
+			path = CountOnMe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
