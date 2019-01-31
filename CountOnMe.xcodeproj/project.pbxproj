@@ -7,34 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100449E121E60B9D0065D994 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100449E021E60B9D0065D994 /* Calculator.swift */; };
+		105C8A9D21F600FE003F2F44 /* CountOnMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105C8A9C21F600FE003F2F44 /* CountOnMeUITests.swift */; };
+		105C8AA521F60155003F2F44 /* CalculatorTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105C8AA421F60155003F2F44 /* CalculatorTestCase.swift */; };
 		10D292D121CBD97D002BABAA /* ButtonsRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D292D021CBD97D002BABAA /* ButtonsRadius.swift */; };
 		C926DADD1D7581BB00477020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926DADC1D7581BB00477020 /* AppDelegate.swift */; };
 		C926DADF1D7581BB00477020 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926DADE1D7581BB00477020 /* ViewController.swift */; };
 		C926DAE21D7581BB00477020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C926DAE01D7581BB00477020 /* Main.storyboard */; };
 		C926DAE41D7581BB00477020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C926DAE31D7581BB00477020 /* Assets.xcassets */; };
 		C926DAE71D7581BB00477020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C926DAE51D7581BB00477020 /* LaunchScreen.storyboard */; };
-		C926DAF21D7581BB00477020 /* Zozor_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926DAF11D7581BB00477020 /* Zozor_Tests.swift */; };
-		C926DAFD1D7581BB00477020 /* Zozor_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926DAFC1D7581BB00477020 /* Zozor_UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C926DAEE1D7581BB00477020 /* PBXContainerItemProxy */ = {
+		105C8A9121F600E8003F2F44 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C926DAD11D7581BB00477020 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C926DAD81D7581BB00477020;
-			remoteInfo = "Zozor+";
+			remoteInfo = CountOnMe;
 		};
-		C926DAF91D7581BB00477020 /* PBXContainerItemProxy */ = {
+		105C8A9F21F600FE003F2F44 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C926DAD11D7581BB00477020 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C926DAD81D7581BB00477020;
-			remoteInfo = "Zozor+";
+			remoteInfo = CountOnMe;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		100449E021E60B9D0065D994 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		105C8A8C21F600E8003F2F44 /* CountOnMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountOnMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		105C8A9021F600E8003F2F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		105C8A9A21F600FE003F2F44 /* CountOnMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountOnMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		105C8A9C21F600FE003F2F44 /* CountOnMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountOnMeUITests.swift; sourceTree = "<group>"; };
+		105C8A9E21F600FE003F2F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		105C8AA421F60155003F2F44 /* CalculatorTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTestCase.swift; sourceTree = "<group>"; };
 		10D292D021CBD97D002BABAA /* ButtonsRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsRadius.swift; sourceTree = "<group>"; };
 		C926DAD91D7581BB00477020 /* CountOnMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountOnMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C926DADC1D7581BB00477020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,30 +51,24 @@
 		C926DAE31D7581BB00477020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C926DAE61D7581BB00477020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C926DAE81D7581BB00477020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C926DAED1D7581BB00477020 /* CountOnMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountOnMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C926DAF11D7581BB00477020 /* Zozor_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zozor_Tests.swift; sourceTree = "<group>"; };
-		C926DAF31D7581BB00477020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C926DAF81D7581BB00477020 /* CountOnMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountOnMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C926DAFC1D7581BB00477020 /* Zozor_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zozor_UITests.swift; sourceTree = "<group>"; };
-		C926DAFE1D7581BB00477020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		105C8A8921F600E8003F2F44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105C8A9721F600FE003F2F44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C926DAD61D7581BB00477020 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C926DAEA1D7581BB00477020 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C926DAF51D7581BB00477020 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,9 +78,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		105C8A8D21F600E8003F2F44 /* CountOnMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				105C8AA421F60155003F2F44 /* CalculatorTestCase.swift */,
+				105C8A9021F600E8003F2F44 /* Info.plist */,
+			);
+			path = CountOnMeTests;
+			sourceTree = "<group>";
+		};
+		105C8A9B21F600FE003F2F44 /* CountOnMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				105C8A9C21F600FE003F2F44 /* CountOnMeUITests.swift */,
+				105C8A9E21F600FE003F2F44 /* Info.plist */,
+			);
+			path = CountOnMeUITests;
+			sourceTree = "<group>";
+		};
 		10D292CD21CBD8F6002BABAA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				100449E021E60B9D0065D994 /* Calculator.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -105,8 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				C926DADB1D7581BB00477020 /* CountOnMe */,
-				C926DAF01D7581BB00477020 /* CountOnMeTests */,
-				C926DAFB1D7581BB00477020 /* CountOnMeUITests */,
+				105C8A8D21F600E8003F2F44 /* CountOnMeTests */,
+				105C8A9B21F600FE003F2F44 /* CountOnMeUITests */,
 				C926DADA1D7581BB00477020 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,8 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				C926DAD91D7581BB00477020 /* CountOnMe.app */,
-				C926DAED1D7581BB00477020 /* CountOnMeTests.xctest */,
-				C926DAF81D7581BB00477020 /* CountOnMeUITests.xctest */,
+				105C8A8C21F600E8003F2F44 /* CountOnMeTests.xctest */,
+				105C8A9A21F600FE003F2F44 /* CountOnMeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,33 +152,48 @@
 				C926DAE31D7581BB00477020 /* Assets.xcassets */,
 				C926DAE81D7581BB00477020 /* Info.plist */,
 			);
-			name = CountOnMe;
-			path = "Zozor+";
-			sourceTree = "<group>";
-		};
-		C926DAF01D7581BB00477020 /* CountOnMeTests */ = {
-			isa = PBXGroup;
-			children = (
-				C926DAF11D7581BB00477020 /* Zozor_Tests.swift */,
-				C926DAF31D7581BB00477020 /* Info.plist */,
-			);
-			name = CountOnMeTests;
-			path = "Zozor+Tests";
-			sourceTree = "<group>";
-		};
-		C926DAFB1D7581BB00477020 /* CountOnMeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C926DAFC1D7581BB00477020 /* Zozor_UITests.swift */,
-				C926DAFE1D7581BB00477020 /* Info.plist */,
-			);
-			name = CountOnMeUITests;
-			path = "Zozor+UITests";
+			path = CountOnMe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		105C8A8B21F600E8003F2F44 /* CountOnMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 105C8A9321F600E8003F2F44 /* Build configuration list for PBXNativeTarget "CountOnMeTests" */;
+			buildPhases = (
+				105C8A8821F600E8003F2F44 /* Sources */,
+				105C8A8921F600E8003F2F44 /* Frameworks */,
+				105C8A8A21F600E8003F2F44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				105C8A9221F600E8003F2F44 /* PBXTargetDependency */,
+			);
+			name = CountOnMeTests;
+			productName = CountOnMeTests;
+			productReference = 105C8A8C21F600E8003F2F44 /* CountOnMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		105C8A9921F600FE003F2F44 /* CountOnMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 105C8AA121F600FE003F2F44 /* Build configuration list for PBXNativeTarget "CountOnMeUITests" */;
+			buildPhases = (
+				105C8A9621F600FE003F2F44 /* Sources */,
+				105C8A9721F600FE003F2F44 /* Frameworks */,
+				105C8A9821F600FE003F2F44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				105C8AA021F600FE003F2F44 /* PBXTargetDependency */,
+			);
+			name = CountOnMeUITests;
+			productName = CountOnMeUITests;
+			productReference = 105C8A9A21F600FE003F2F44 /* CountOnMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		C926DAD81D7581BB00477020 /* CountOnMe */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C926DB011D7581BB00477020 /* Build configuration list for PBXNativeTarget "CountOnMe" */;
@@ -175,66 +211,33 @@
 			productReference = C926DAD91D7581BB00477020 /* CountOnMe.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C926DAEC1D7581BB00477020 /* CountOnMeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C926DB041D7581BB00477020 /* Build configuration list for PBXNativeTarget "CountOnMeTests" */;
-			buildPhases = (
-				C926DAE91D7581BB00477020 /* Sources */,
-				C926DAEA1D7581BB00477020 /* Frameworks */,
-				C926DAEB1D7581BB00477020 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C926DAEF1D7581BB00477020 /* PBXTargetDependency */,
-			);
-			name = CountOnMeTests;
-			productName = "Zozor+Tests";
-			productReference = C926DAED1D7581BB00477020 /* CountOnMeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C926DAF71D7581BB00477020 /* CountOnMeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C926DB071D7581BB00477020 /* Build configuration list for PBXNativeTarget "CountOnMeUITests" */;
-			buildPhases = (
-				C926DAF41D7581BB00477020 /* Sources */,
-				C926DAF51D7581BB00477020 /* Frameworks */,
-				C926DAF61D7581BB00477020 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C926DAFA1D7581BB00477020 /* PBXTargetDependency */,
-			);
-			name = CountOnMeUITests;
-			productName = "Zozor+UITests";
-			productReference = C926DAF81D7581BB00477020 /* CountOnMeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		C926DAD11D7581BB00477020 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0810;
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Ambroise Collon";
 				TargetAttributes = {
+					105C8A8B21F600E8003F2F44 = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = LB6NT562ER;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C926DAD81D7581BB00477020;
+					};
+					105C8A9921F600FE003F2F44 = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = LB6NT562ER;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C926DAD81D7581BB00477020;
+					};
 					C926DAD81D7581BB00477020 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = LB6NT562ER;
-						LastSwiftMigration = 0810;
-					};
-					C926DAEC1D7581BB00477020 = {
-						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0810;
-						TestTargetID = C926DAD81D7581BB00477020;
-					};
-					C926DAF71D7581BB00477020 = {
-						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0810;
-						TestTargetID = C926DAD81D7581BB00477020;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -252,13 +255,27 @@
 			projectRoot = "";
 			targets = (
 				C926DAD81D7581BB00477020 /* CountOnMe */,
-				C926DAEC1D7581BB00477020 /* CountOnMeTests */,
-				C926DAF71D7581BB00477020 /* CountOnMeUITests */,
+				105C8A8B21F600E8003F2F44 /* CountOnMeTests */,
+				105C8A9921F600FE003F2F44 /* CountOnMeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		105C8A8A21F600E8003F2F44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105C8A9821F600FE003F2F44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C926DAD71D7581BB00477020 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,61 +286,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C926DAEB1D7581BB00477020 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C926DAF61D7581BB00477020 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		105C8A8821F600E8003F2F44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105C8AA521F60155003F2F44 /* CalculatorTestCase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105C8A9621F600FE003F2F44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105C8A9D21F600FE003F2F44 /* CountOnMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C926DAD51D7581BB00477020 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				10D292D121CBD97D002BABAA /* ButtonsRadius.swift in Sources */,
+				100449E121E60B9D0065D994 /* Calculator.swift in Sources */,
 				C926DADF1D7581BB00477020 /* ViewController.swift in Sources */,
 				C926DADD1D7581BB00477020 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C926DAE91D7581BB00477020 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C926DAF21D7581BB00477020 /* Zozor_Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C926DAF41D7581BB00477020 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C926DAFD1D7581BB00477020 /* Zozor_UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C926DAEF1D7581BB00477020 /* PBXTargetDependency */ = {
+		105C8A9221F600E8003F2F44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C926DAD81D7581BB00477020 /* CountOnMe */;
-			targetProxy = C926DAEE1D7581BB00477020 /* PBXContainerItemProxy */;
+			targetProxy = 105C8A9121F600E8003F2F44 /* PBXContainerItemProxy */;
 		};
-		C926DAFA1D7581BB00477020 /* PBXTargetDependency */ = {
+		105C8AA021F600FE003F2F44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C926DAD81D7581BB00477020 /* CountOnMe */;
-			targetProxy = C926DAF91D7581BB00477020 /* PBXContainerItemProxy */;
+			targetProxy = 105C8A9F21F600FE003F2F44 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -347,6 +351,111 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		105C8A9421F600E8003F2F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LB6NT562ER;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CountOnMeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeromkrakus.CountOnMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountOnMe.app/CountOnMe";
+			};
+			name = Debug;
+		};
+		105C8A9521F600E8003F2F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LB6NT562ER;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CountOnMeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeromkrakus.CountOnMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountOnMe.app/CountOnMe";
+			};
+			name = Release;
+		};
+		105C8AA221F600FE003F2F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LB6NT562ER;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CountOnMeUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeromkrakus.CountOnMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CountOnMe;
+			};
+			name = Debug;
+		};
+		105C8AA321F600FE003F2F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LB6NT562ER;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CountOnMeUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeromkrakus.CountOnMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CountOnMe;
+			};
+			name = Release;
+		};
 		C926DAFF1D7581BB00477020 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -356,14 +465,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -404,14 +521,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -442,12 +567,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LB6NT562ER;
-				INFOPLIST_FILE = "Zozor+/Info.plist";
+				INFOPLIST_FILE = CountOnMe/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeromekrakus.CountOnMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -457,69 +583,38 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LB6NT562ER;
-				INFOPLIST_FILE = "Zozor+/Info.plist";
+				INFOPLIST_FILE = CountOnMe/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeromekrakus.CountOnMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		C926DB051D7581BB00477020 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Zozor+Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ambroisecollon.Zozor-Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountOnMe.app/CountOnMe";
-			};
-			name = Debug;
-		};
-		C926DB061D7581BB00477020 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Zozor+Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ambroisecollon.Zozor-Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountOnMe.app/CountOnMe";
-			};
-			name = Release;
-		};
-		C926DB081D7581BB00477020 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "Zozor+UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ambroisecollon.Zozor-UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "Zozor+";
-			};
-			name = Debug;
-		};
-		C926DB091D7581BB00477020 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "Zozor+UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ambroisecollon.Zozor-UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "Zozor+";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		105C8A9321F600E8003F2F44 /* Build configuration list for PBXNativeTarget "CountOnMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105C8A9421F600E8003F2F44 /* Debug */,
+				105C8A9521F600E8003F2F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		105C8AA121F600FE003F2F44 /* Build configuration list for PBXNativeTarget "CountOnMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105C8AA221F600FE003F2F44 /* Debug */,
+				105C8AA321F600FE003F2F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C926DAD41D7581BB00477020 /* Build configuration list for PBXProject "CountOnMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -534,24 +629,6 @@
 			buildConfigurations = (
 				C926DB021D7581BB00477020 /* Debug */,
 				C926DB031D7581BB00477020 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C926DB041D7581BB00477020 /* Build configuration list for PBXNativeTarget "CountOnMeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C926DB051D7581BB00477020 /* Debug */,
-				C926DB061D7581BB00477020 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C926DB071D7581BB00477020 /* Build configuration list for PBXNativeTarget "CountOnMeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C926DB081D7581BB00477020 /* Debug */,
-				C926DB091D7581BB00477020 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
