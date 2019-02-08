@@ -275,7 +275,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1md-mv-IxN">
                                         <rect key="frame" x="269.5" y="0.0" width="73.5" height="74"/>
-                                        <color key="backgroundColor" red="0.062140824640000002" green="0.1566727" blue="0.27287392989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.062745098039215685" green="0.15686274509803921" blue="0.27450980392156865" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="jbz-rs-kTq"/>
                                             <constraint firstAttribute="width" secondItem="1md-mv-IxN" secondAttribute="height" multiplier="1:1" id="o7s-qk-sLo"/>
